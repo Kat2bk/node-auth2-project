@@ -39,12 +39,12 @@ Write the following user access functions inside `api/users/users-model.js`:
 
 #### 2B - Middleware Functions
 
-Write the following auth middlewares inside `api/auth/auth-middleware.js`:
+<!-- Write the following auth middlewares inside `api/auth/auth-middleware.js`:
 
 - [ ] `restricted`
 - [ ] `only`
 - [ ] `checkUsernameExists`
-- [ ] `validateRoleName`
+- [ ] `validateRoleName` -->
 
 #### 2C - Endpoints
 
