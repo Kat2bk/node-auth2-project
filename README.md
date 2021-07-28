@@ -29,22 +29,22 @@ There are two possible ways to submit your project. Your instructor should have 
 
 You will complete the following tasks and do any extra wiring and package installation necessary for the app to compile and pass all tests.
 
-#### 2A - Database Access Functions
+<!-- #### 2A - Database Access Functions
 
 Write the following user access functions inside `api/users/users-model.js`:
 
 - [ ] `find`
 - [ ] `findBy`
-- [ ] `findById`
+- [ ] `findById` -->
 
 #### 2B - Middleware Functions
 
-Write the following auth middlewares inside `api/auth/auth-middleware.js`:
+<!-- Write the following auth middlewares inside `api/auth/auth-middleware.js`:
 
 - [ ] `restricted`
 - [ ] `only`
 - [ ] `checkUsernameExists`
-- [ ] `validateRoleName`
+- [ ] `validateRoleName` -->
 
 #### 2C - Endpoints
 

@@ -18,6 +18,8 @@ function find() {
       }
     ]
    */
+  return db('users')
+  .leftJoin('roles', 'role_id', 'roles.role_id')
 }
 
 function findBy(filter) {
@@ -34,6 +36,10 @@ function findBy(filter) {
       }
     ]
    */
+    return db('users')
+    .leftJoin('roles', 'role_id', 'roles.role_id')
+    .where(filter)
+
 }
 
 function findById(user_id) {
@@ -47,6 +53,11 @@ function findById(user_id) {
       "role_name": "instructor"
     }
    */
+
+    return db('users')
+    .leftJoin('roles', 'role_id', 'roles.role_id')
+    .where({user_id})
+    .first()
 }
 
 /**
